@@ -1,0 +1,26 @@
+{
+  "name": "@amn31/ma-progress-bar",
+  "version": "1.0.0",
+  "description": "Display progress bar on console",
+  "main": "dist/lib/ma-progress-bar.js",
+  "types": "dist/lib/ma-progress-bar.d.ts",
+  "scripts": {
+    "test": "ts-node test\\test.ts",
+    "node-test": "node dist\\test\\test.js",
+    "build": "tsc --project tsconfig-build.json"
+  },
+  "keywords": [
+    "progress",
+    "bar",
+    "console"
+  ],
+  "author": "Morillon A.",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "draftlog": "^1.0.13"
+  }
+}
